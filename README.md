@@ -23,16 +23,22 @@ Great news - tfsec has [now joined Aqua Security](https://www.aquasec.com/news/a
 
 ## Installation
 
-Install with brew/linuxbrew:
+Install with [brew/linuxbrew](https://brew.sh)
 
 ```bash
 brew install tfsec
 ```
 
-Install with Chocolatey:
+Install with [Chocolatey](https://chocolatey.org/)
 
 ```cmd
 choco install tfsec
+```
+
+Install with [Scoop](https://scoop.sh/)
+
+```cmd
+scoop install tfsec
 ```
 
 You can also grab the binary for your system from the [releases page](https://github.com/aquasecurity/tfsec/releases).
@@ -69,10 +75,10 @@ There are a number of Docker options available
 
 | Image Name | Base | Comment |
 |------------|------|---------|
-|[tfsec/tfsec](https://hub.docker.com/r/aquasec/tfsec)|alpine|Normal tfsec image|
-|[tfsec/tfsec-alpine](https://hub.docker.com/r/aquasec/tfsec-alpine)|alpine|Exactly the same as tfsec/tfsec, but for those whole like to be explicit|
-|[tfsec/tfsec-ci](https://hub.docker.com/r/aquasec/tfsec-ci)|alpine|tfsec with no entrypoint - useful for CI builds where you want to override the command|
-|[tfsec/tfsec-scratch](https://hub.docker.com/r/aquasec/tfsec-scratch)|scratch|An image built on scratch - nothing frilly, just runs tfsec|
+|[aquasec/tfsec](https://hub.docker.com/r/aquasec/tfsec)|alpine|Normal tfsec image|
+|[aquasec/tfsec-alpine](https://hub.docker.com/r/aquasec/tfsec-alpine)|alpine|Exactly the same as tfsec/tfsec, but for those whole like to be explicit|
+|[aquasec/tfsec-ci](https://hub.docker.com/r/aquasec/tfsec-ci)|alpine|tfsec with no entrypoint - useful for CI builds where you want to override the command|
+|[aquasec/tfsec-scratch](https://hub.docker.com/r/aquasec/tfsec-scratch)|scratch|An image built on scratch - nothing frilly, just runs tfsec|
 
 To run:
 
